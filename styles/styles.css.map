@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,UAAU;EACT,KAAK,EAAE,IAAI;EAAC,MAAM,EAAE,IAAI;EAAC,OAAO,EAAE,CAAC;EAAC,MAAM,EAAE,CAAC;EAC7C,gBAAgB,ECGN,OAAO;;ACLlB,IAAI;EAAC,cAAc,EAAC,IAAI;;ACAxB,QAAQ;EACP,gBAAgB,EFAD,OAAO;EECtB,KAAK,EAAC,KAAK;;ACFZ,KAAK;EACJ,gBAAgB,EHKV,IAAI;EGJV,SAAS,EAAE,KAAK;EAChB,aAAa,EAAC,IAAI",
-"sources": ["partials/_base.scss","partials/_theme.scss","partials/_layout.scss","partials/components/_toolbar.scss","partials/components/_card.scss"],
+"mappings": "AAAA,UAAU;EACT,KAAK,EAAE,IAAI;EAAC,MAAM,EAAE,IAAI;EAAC,OAAO,EAAE,CAAC;EAAC,MAAM,EAAE,CAAC;EAC7C,gBAAgB,ECGN,OAAO;;ACLlB,IAAI;EAAC,cAAc,EAAC,IAAI;;ACAxB,QAAQ;EACP,gBAAgB,EFAD,OAAO;EECtB,KAAK,EAAC,KAAK;;ACFZ,KAAK;EACJ,gBAAgB,EHKV,IAAI;EGJV,aAAa,EAAC,IAAI;EAElB,kCAAsC;IAJvC,KAAK;MAKH,SAAS,EAAE,IAAI;EAGhB,oCAAuC;IARxC,KAAK;MASH,SAAS,EAAE,IAAI;EAEhB,oCAAwC;IAXzC,KAAK;MAYH,SAAS,EAAE,KAAK;;ACZlB,eAAe;EACd,gBAAgB,EAAC,OAAO",
+"sources": ["partials/_base.scss","partials/_theme.scss","partials/_layout.scss","partials/components/_toolbar.scss","partials/components/_card.scss","partials/components/_screen-message.scss"],
 "names": [],
 "file": "styles.css"
 }

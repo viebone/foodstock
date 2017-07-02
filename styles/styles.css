@@ -14,7 +14,18 @@ body, html {
 
 .card {
   background-color: #fff;
-  max-width: 320px;
   margin-bottom: 16px; }
+  @media screen and (min-width: 0px) {
+    .card {
+      max-width: 100%; } }
+  @media screen and (min-width: 480px) {
+    .card {
+      max-width: 100%; } }
+  @media screen and (min-width: 840px) {
+    .card {
+      max-width: 320px; } }
+
+.screen-message {
+  background-color: #FDF8BF; }
 
 /*# sourceMappingURL=styles.css.map */
