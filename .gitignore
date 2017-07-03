@@ -1,2 +1,4 @@
 node_modules/
 mdc/
+fonts/
+styles/.sass-cache

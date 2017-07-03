@@ -3,7 +3,8 @@ body, html {
   height: 100%;
   padding: 0;
   margin: 0;
-  background-color: #E1E2E1; }
+  background-color: #E1E2E1;
+  font-family: Roboto, sans-serif; }
 
 .top {
   padding-bottom: 16px; }
@@ -26,6 +27,19 @@ body, html {
       max-width: 320px; } }
 
 .screen-message {
-  background-color: #FDF8BF; }
+  position: relative;
+  background-color: #FDF8BF;
+  text-align: center;
+  padding: 16px; }
+  .screen-message .screen-message__icon {
+    position: absolute;
+    left: 24px;
+    top: 0px;
+    width: 35px;
+    height: 35px;
+    background: red;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    border-radius: 17px; }
 
 /*# sourceMappingURL=styles.css.map */

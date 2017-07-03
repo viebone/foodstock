@@ -1,3 +1,18 @@
 .screen-message{
+	position:relative;
 	background-color:#FDF8BF;
+	text-align:center;
+	padding:$base-margin*2;
+
+	.screen-message__icon{
+		position:absolute;
+		left:$base-margin*3;
+		top:0px;
+		width: 35px;
+		height: 35px;
+		background: red;
+		-moz-border-radius: 17px;
+		-webkit-border-radius: 17px;
+		border-radius: 17px;
+	}
 }
