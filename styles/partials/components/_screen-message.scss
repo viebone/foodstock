@@ -6,13 +6,33 @@
 
 	.screen-message__icon{
 		position:absolute;
-		left:$base-margin*3;
-		top:0px;
+		
+		top:$base-margin;
 		width: 35px;
 		height: 35px;
-		background: red;
+		background: $white;
 		-moz-border-radius: 17px;
 		-webkit-border-radius: 17px;
 		border-radius: 17px;
+
+		@media screen and (min-width: $phone) {
+			left:$base-margin*1;
+		}
+
+		@media screen and (min-width: $tablet) {
+			left:$base-margin*3;
+		}
+		@media screen and (min-width: $desktop) {
+			left:$base-margin*3;
+		}
+		
 	}
+
+	i.material-icons{
+		position: absolute;
+		left:6px;
+		top:5px;
+	}
+
+
 }

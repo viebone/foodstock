@@ -4,7 +4,8 @@ body, html {
   padding: 0;
   margin: 0;
   background-color: #E1E2E1;
-  font-family: Roboto, sans-serif; }
+  font-family: Roboto, sans-serif;
+  font-size: 14px; }
 
 .top {
   padding-bottom: 16px; }
@@ -33,13 +34,32 @@ body, html {
   padding: 16px; }
   .screen-message .screen-message__icon {
     position: absolute;
-    left: 24px;
-    top: 0px;
+    top: 8px;
     width: 35px;
     height: 35px;
-    background: red;
+    background: #fff;
     -moz-border-radius: 17px;
     -webkit-border-radius: 17px;
     border-radius: 17px; }
+    @media screen and (min-width: 0px) {
+      .screen-message .screen-message__icon {
+        left: 8px; } }
+    @media screen and (min-width: 480px) {
+      .screen-message .screen-message__icon {
+        left: 24px; } }
+    @media screen and (min-width: 840px) {
+      .screen-message .screen-message__icon {
+        left: 24px; } }
+  .screen-message i.material-icons {
+    position: absolute;
+    left: 6px;
+    top: 5px; }
+
+.bottom-nav .bottom-nav__cell {
+  text-align: center;
+  color: #000;
+  text-decoration: none; }
+.bottom-nav .bottom-nav__cell__icon {
+  display: block; }
 
 /*# sourceMappingURL=styles.css.map */
