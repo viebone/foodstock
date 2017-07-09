@@ -16,7 +16,18 @@ body, html {
 
 .card {
   background-color: #fff;
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+  text-align: center; }
+  .card .card__icon {
+    font-size: 5rem; }
+  .card .card__title {
+    font-size: 3rem;
+    line-height: 3.5rem; }
+  .card .card__sub-title {
+    font-size: 1rem;
+    line-height: 1.5rem; }
+  .card .card__cta {
+    margin: 0 auto !important; }
   @media screen and (min-width: 0px) {
     .card {
       max-width: 100%; } }
