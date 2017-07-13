@@ -78,4 +78,7 @@ body, html {
   height: 150px;
   display: block; }
 
+.stock-list .stock-list__item {
+  padding-bottom: 1rem; }
+
 /*# sourceMappingURL=styles.css.map */
