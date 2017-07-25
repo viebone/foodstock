@@ -71,14 +71,17 @@ body, html {
   color: #000;
   text-decoration: none; }
 .bottom-nav .bottom-nav__cell__icon {
-  display: block; }
+  display: block;
+  margin: 0 auto; }
 
 .location-image {
   background-color: #2e7d32;
   height: 150px;
   display: block; }
 
-.stock-list .stock-list__item {
-  padding-bottom: 1rem; }
+.stock-list {
+  background-color: #fff; }
+  .stock-list .stock-list__item {
+    padding-bottom: 1rem; }
 
 /*# sourceMappingURL=styles.css.map */
